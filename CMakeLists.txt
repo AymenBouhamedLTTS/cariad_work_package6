@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(cariad_project LANGUAGES CXX)
 
-
-
-
 ## Settig Building Parameters 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -39,7 +36,7 @@ include(${CMAKE_BINARY_DIR}/conan_toolchain.cmake)
 ## Glob files and create target libraries
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
-file(GLOB_RECURSE HEADERS "include/*.h")
+file(GLOB_RECURSE HEADERS "inc/*.h")
 
 find_package(GTest REQUIRED)
 find_package(yaml-cpp REQUIRED)
@@ -47,10 +44,10 @@ find_package(jsoncpp REQUIRED)
 
 
 add_library(cariad_library ${SOURCES} ${HEADERS})
+target_include_directories(cariad_library PUBLIC ${PROJECT_SOURCE_DIR}/inc)
 target_link_libraries(cariad_library yaml-cpp::yaml-cpp JsonCpp::JsonCpp)
 
 add_executable(cariad_exec "src/main.cpp")
-
 target_link_libraries(cariad_exec PRIVATE cariad_library)
 
 add_executable(my_tests tests/test_cariad.cpp)
