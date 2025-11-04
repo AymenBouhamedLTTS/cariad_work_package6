@@ -1,0 +1,10 @@
+# Ignore the build directory
+/build/
+
+# Optionally, you can ignore other common build artifacts and IDE files as well:
+
+# Ignore CMake files
+CMakeUserPresets.json
+
+# Ignore IDE files
+.vscode/
