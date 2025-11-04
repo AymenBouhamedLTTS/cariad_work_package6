@@ -1,0 +1,7 @@
+[requires]
+gtest/1.15.0
+jsoncpp/1.9.5  
+
+[generators]
+CMakeDeps
+CMakeToolchain
