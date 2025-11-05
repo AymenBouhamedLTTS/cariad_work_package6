@@ -15,5 +15,7 @@ make -j 4
 ## Project running setps
 ./cariad_exec  
 
+## Unit tests running setps
+ctest --verbose  
 
 
