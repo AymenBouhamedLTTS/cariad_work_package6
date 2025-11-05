@@ -1,0 +1,10 @@
+{
+    "name": "Aymen",
+    "age": 27,
+    "skills": ["C++", "Python", "Verilog"],
+    "address": {
+      "city": "Munich",
+      "zip": 80807
+    }
+  }
+  
