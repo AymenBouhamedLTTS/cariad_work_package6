@@ -2,7 +2,8 @@
 gtest/1.15.0
 jsoncpp/1.9.6
 yaml-cpp/0.8.0
-
+opengl/system
+glfw/3.4
 
 [generators]
 CMakeDeps

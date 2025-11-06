@@ -41,11 +41,13 @@ file(GLOB_RECURSE HEADERS "inc/*.h")
 find_package(GTest REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(jsoncpp REQUIRED)
-
+find_package(glfw3 REQUIRED)
+find_package(GLEW REQUIRED)
+find_package(glm REQUIRED)
 
 add_library(cariad_library ${SOURCES} ${HEADERS})
 target_include_directories(cariad_library PUBLIC ${PROJECT_SOURCE_DIR}/inc)
-target_link_libraries(cariad_library yaml-cpp::yaml-cpp JsonCpp::JsonCpp)
+target_link_libraries(cariad_library yaml-cpp::yaml-cpp JsonCpp::JsonCpp glfw GLEW::GLEW glm::glm)
 
 add_executable(cariad_exec "src/main.cpp")
 target_link_libraries(cariad_exec PRIVATE cariad_library)

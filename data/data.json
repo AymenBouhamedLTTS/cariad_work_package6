@@ -1,10 +1,141 @@
 {
-    "name": "Aymen",
-    "age": 27,
-    "skills": ["C++", "Python", "Verilog"],
-    "address": {
-      "city": "Munich",
-      "zip": 80807
-    }
+    "Ego": {
+      "translation" : [0,0,0],
+      "rotation" : [0,0,0]
+    },
+    "Sensors": [
+      {
+        "name" : "FSL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "FOL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "FIL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "FIR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "FOR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },      {
+        "name" : "FSR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "RSL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "ROL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "RIL" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "RIR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "ROR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      },
+      {
+        "name" : "RSR" ,
+        "x" : 0,
+        "y" : 0,
+        "z" : 0,
+        "h" : 0,
+        "p" : 0,
+        "r" : 0,
+        "min_distance" : 0,
+        "max_distance" : 0 
+      }
+    ]
+
   }
   

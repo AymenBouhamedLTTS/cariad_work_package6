@@ -2,6 +2,7 @@
 #define CARIAD_H
 #include <fstream>
 #include <vector>
+#include <cstdint>
 #include <string>
 
 namespace cariad {
@@ -20,7 +21,7 @@ class LttsEngineer {
         
         void setAddress(const Address& address) { address_ = address; };
 
-        bool parseFile(std::string path);
+        bool parseFile(std::string path) {};
         
         const std::string getName() const { return name_ ;};
 
